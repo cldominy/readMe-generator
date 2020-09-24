@@ -4,9 +4,9 @@ This readME generator was built using node.js and inquirer to help users create 
 
 # Demostration of Generator 
 
-![Preview of the generator](./static/media/preview.gif)
+![Preview of the generator](static/media/preview.gif)
 <br>
-[Link to the Videos (no audio)](https://youtu.be/XlwSdMOWucI)
+[Link to the Video (no audio)](https://youtu.be/XlwSdMOWucI)
 
 # Installation Instructions
 
