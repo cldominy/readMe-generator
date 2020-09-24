@@ -12,37 +12,47 @@ const questions = [
 {
     type: "input",
     name: "description",
-    message: "Input the description of the project"
+    message: "Input the description of the project:"
 },
 {
     type: "input",
     name: "installation",
-    message: "Input the installation instructions for the project"
+    message: "Input the installation instructions for the project:"
 },
 {
     type: "input",
     name: "usage",
-    message: "Input the project's usage"
+    message: "Input the project's usage:"
 },
 {
     type: "input",
     name: "credit",
-    message: "List all contributors, third-party assets that require attribution and/or tutorials used for this project"
+    message: "List all contributors, third-party assets that require attribution and/or tutorials used for this project:"
 },
 {
-    type: "input",
+    type: "list",
     name: "license",
-    message: "Input the project license or the badge link for the license"
+    message: "Select a license for this project:",
+    choices: [
+        "GNU AGPLv3",
+        "GNU GPLv3",
+        "GNU LGPLv3",
+        "Mozilla Public License 2.0",
+        "Apache License 2.0",
+        "MIT License",
+        "Boost Software License 1.0",
+        "The Unlicense"
+    ]
 },
 {
     type: "input",
     name: "contributing",
-    message: "Input guidelines for contributing to the project"
+    message: "Input guidelines for contributing to the project:"
 },
 {
     type: "input",
     name: "tests",
-    message: "Input examples of how to run any tests for the project"
+    message: "Input examples of how to run any tests for the project:"
 },
 {
     type: "input",
